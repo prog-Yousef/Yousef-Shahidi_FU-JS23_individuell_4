@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ropa+Sans&display=swap');
+
+.cart_menu {
+    position: relative;
+  }
+  
+  .cart_container {
+    position: relative;
+  }
+  
+  .logo_cart:hover{
+    zoom:104%
+  }
+
+  .inside_cart_item {
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    justify-content: space-between;
+    }
+
+  .logo_cart {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    position: absolute;
+    left:77%;
+    top:-6rem;
+    border-radius: 50%;
+    background-color: #2F2926;
+    margin-left: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .logo_counter {
+    background-color: #E5674E;
+    height: 22px;
+    width: 22px;
+    top: -0.2rem;
+    right:0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .product_counter {
+    color: white;
+    font-family: "PT Serif", serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .cart_button {
+    background-color: #2F2926;
+    color: white;
+    border-style: none;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-family: "PT Serif", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 2rem;
+  }
+  
+  
+  .cart_modal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 999;
+    font-family: "PT Serif", serif;
+    box-shadow: 5px 5px 9px 500px rgba(27, 26, 26, 0.45); 
+   
+  }
+
+  .cart_header_modal {
+    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+    color: #3a3837;
+}
+
+  .order_cart_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+    height: 100%;
+  }
+
+  .total_cart_info {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+  }
+
+
+  .cart_toggle {
+    width: 20px;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  .header_bean_coffe{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #2F2926;
+    margin-top: 0.5rem;
+  }
+
+
+  .moms_modal {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .total_cart_modal {
+    font-family: "PT Serif", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .total_price_modal {
+    font-family: "PT Serif", serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 28px;
+}

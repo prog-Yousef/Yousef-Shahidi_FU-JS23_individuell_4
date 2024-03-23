@@ -1,0 +1,63 @@
+
+
+  
+  
+  .container {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   background-image: url(../logos/header2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-content: center;
+    align-items: center;
+    background-position: right;
+    
+  }
+  .text_Landing {
+    font-family: "Work Sans", sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: white;
+  }
+  
+  .img {
+  width: 40px;
+  height: 40px;
+  }
+  
+  .link {
+    cursor: pointer;
+    text-decoration: none;
+
+  } 
+  
+  .landing_logo_wrapper {
+    background-color: black;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    background: #FFFFFF1A;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .Landing_background {
+    background-image: url(../logos/header1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #38846D;
+  }
+  .header_Landing {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 58px;
+  color: white;
+  }
+  

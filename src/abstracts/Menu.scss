@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rufina:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.Menu_Head{
+  font-family: PT Serif;
+  display: flex;
+font-size:42px ;
+  justify-content: center;
+  align-items: center;
+  line-height: 50.4px;
+}
+
+.item_price {
+  font-family: "PT Serif", serif;
+  font-size: 23px;
+  justify-content: flex-end;
+  display: flex;
+  width: 30%;
+  font-weight: 700;
+  line-height: 28px;
+  
+}
+
+
+main {
+background-image: url("../logos/header4.png");
+background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  padding-bottom: 16rem;
+}
+
+.product_name {
+margin-top: 1rem;
+  width: 100%;
+}
+
+.product_content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  height: 4rem;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.wrapper-menu {
+  height: 100%;
+  width: 100%;
+  background-color: #eae2e0;
+  background-image: url("../logos/header3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 7rem;
+}
+
+.product_title {
+  font-family: "PT Serif", serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #2f2926;
+}
+
+.product_desc {
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+
+.open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2926;
+}

@@ -1,0 +1,15 @@
+@use './sass/index' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+#root {
+    margin: 1rem auto;
+    width: $maxAppWidth;
+    min-height: 40.9735rem;
+    position:relative;
+    overflow: hidden;
+}

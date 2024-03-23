@@ -1,0 +1,98 @@
+.status_container {
+    width: 600px;
+    background-color: #f9684b;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    display: flex;
+
+  }
+
+  .status_order_eta {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    opacity: 60%;
+  }
+  
+  
+  .status_order_container{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+  
+  .status_order {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 1rem;
+    opacity: 60%;
+  }
+  
+
+  .status_drone_img {
+    margin-bottom: 4.5rem;
+  }
+  
+  #status_text , #status_text2 {
+    color: white;
+    font-family: PT Serif;
+    font-size: 40px;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    line-height: 43px;
+  }
+  
+  .status_time_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    color: white;
+  }
+  .status_link {
+    text-decoration: none;
+}
+  .status_eta_time {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-right: 0.5rem;
+  }
+  
+  .status-eta-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  
+  .status_button {
+      background-color: #fef6f6;
+      color: rgb(10, 10, 10);
+      border-style: none;
+      width: 12rem;
+      height: 3rem;
+      border-radius: 40px;
+      font-family: "PT Serif", serif;
+      font-size: 24px;
+      margin-top: 6rem;
+      display: flex;
+      font-weight: 700;
+      line-height: 30px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+  }
+  
+
+  .status_button:hover{
+    zoom: 105%;
+  }
